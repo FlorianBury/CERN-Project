@@ -1,0 +1,6 @@
+executable 	= easyrun.sh
+arguments	= $(ClusterId) $(ProcId)
+output 		= output.$(ClusterId).$(ProcId).out
+error 		= error.$(ClusterId).$(ProcId).err
+log 		= easyrun.$(ClusterId).$(ProcId).log
+queue
